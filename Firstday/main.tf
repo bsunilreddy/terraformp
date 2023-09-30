@@ -6,7 +6,7 @@ resource "aws_instance" "firsttreeaform" {
     instance_type = "t2.micro"
     count = "3"  
 }
-   tags = {
+tags = {
     "Name" = "MyInstanceName"  # Replace with the desired name for your instance
     "Environment" = "Production"  # You can add additional tags as needed
   }
