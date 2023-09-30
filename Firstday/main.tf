@@ -1,5 +1,5 @@
 provider "aws" {
-    region = us-east-1
+    region = "us-east-1"
   }
 resource "aws_instance" "firsttreeaform" {
     ami = "ami-0bb4c991fa89d4b9b"
